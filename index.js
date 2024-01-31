@@ -12,7 +12,7 @@ const returnsANamedFunction = ()=> {
 // }
 
 const returnsAnAnonymousFunction = () => {
-  return function (){}
+  return ()=> {}
 }
 // function returnsAnAnonymousFunction() {
 //   return function () {}
